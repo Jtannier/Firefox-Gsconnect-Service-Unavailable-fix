@@ -1,5 +1,7 @@
 # Firefox-Gsconnect-Service-Unavailable-fix
 
+This is a fix for the firefox Gsconnect integration extention trowing a ``Service Unavailable`` error. 
+
 ## TLDR
 
 Since version 147, Firefox uses the ~/.config/mozilla path instead of ~/.mozilla.
@@ -15,7 +17,7 @@ Install and run the script. That's it !
 ```shell
 git clone git@github.com:Jtannier/Firefox-Gsconnect-Service-Unavailable-fix.git
 cd Firefox-Gsconnect-Service-Unavailable-fix
-bash missing_json_fix.sh
+bash ff_gsconnect_fix.sh
 ```
 
 ## Credits
